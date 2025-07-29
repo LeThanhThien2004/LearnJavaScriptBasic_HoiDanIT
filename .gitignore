@@ -1,0 +1,27 @@
+# Bỏ qua node_modules nếu có dùng npm
+node_modules/
+
+# Bỏ qua các file log
+*.log
+
+# Bỏ qua các file tạm của hệ thống
+.DS_Store
+Thumbs.db
+
+# Bỏ qua thư mục build nếu có dùng bundler (Webpack, Parcel...)
+dist/
+build/
+
+# Bỏ qua file cấu hình môi trường (nếu có)
+.env
+
+# VSCode settings (nếu bạn dùng VSCode)
+.vscode/
+
+# Bỏ qua các file backup hoặc tạm
+*.tmp
+*.bak
+*.swp
+
+# Bỏ qua file từ hệ điều hành
+*.~*
